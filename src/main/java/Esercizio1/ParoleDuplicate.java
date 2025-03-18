@@ -16,7 +16,7 @@ public class ParoleDuplicate {
         for(int i = 0; i < num; i++) {
             System.out.println("Inserisci una parola:");
             String word = scanner.next();
-   
+
             if (!uniqueWords.add(word)) {
                 duplicateWords.add(word);
             }
